@@ -1,0 +1,50 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="Title"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimary" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_autoplay"
+            android:layout_alignParentEnd="true"
+            style="bold"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_autoplay"
+            android:text="Autoplay"
+            android:layout_below="@+id/switch_autoplay"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/switch_autoplay"
+            android:maxLines="2"
+            android:text="Description"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

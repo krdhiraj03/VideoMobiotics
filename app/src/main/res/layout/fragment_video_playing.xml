@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playing_video"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:controller_layout_id="@layout/exoplayer_custom" />
+
+    <include layout="@layout/current_video_details_view"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="10dp"
+        android:text="Related..."
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_related_videos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:overScrollMode="never"
+        android:paddingBottom="5dp"/>
+
+
+
+</LinearLayout>

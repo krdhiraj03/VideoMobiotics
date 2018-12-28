@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kanytu:android-parallax-recyclerview-v1.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-parallax-recyclerview-v1.7.aar/1b7d313125450952eb069f602dd7cb87/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-parallax-recyclerview-v1.7.aar/1b7d313125450952eb069f602dd7cb87/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
