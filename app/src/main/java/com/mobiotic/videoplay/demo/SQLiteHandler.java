@@ -28,7 +28,6 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     long Id;
 
-
     private Context context;
     private static final String video_id = "v_id";
     private static final String seek_position = "position";
